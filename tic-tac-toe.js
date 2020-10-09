@@ -78,51 +78,66 @@ function nothovering(x) {
 function winner(x, status){
 	if (x[0].innerHTML == "X" && x[1].innerHTML == "X" && x[2].innerHTML == "X"){
 		status.innerHTML = "Congratulations! X is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[3].innerHTML == "X" && x[4].innerHTML == "X" && x[5].innerHTML == "X"){
 		status.innerHTML = "Congratulations! X is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[6].innerHTML == "X" && x[7].innerHTML == "X" && x[8].innerHTML == "X"){
 		status.innerHTML = "Congratulations! X is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[0].innerHTML == "X" && x[3].innerHTML == "X" && x[6].innerHTML == "X"){
 		status.innerHTML = "Congratulations! X is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[1].innerHTML == "X" && x[4].innerHTML == "X" && x[7].innerHTML == "X"){
 		status.innerHTML = "Congratulations! X is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[2].innerHTML == "X" && x[5].innerHTML == "X" && x[8].innerHTML == "X"){
 		status.innerHTML = "Congratulations! X is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[0].innerHTML == "X" && x[4].innerHTML == "X" && x[8].innerHTML == "X"){
 		status.innerHTML = "Congratulations! X is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[2].innerHTML == "X" && x[4].innerHTML == "X" && x[6].innerHTML == "X"){
 		status.innerHTML = "Congratulations! X is the Winner"
+		board.style.pointerEvents = "none";
 	}
-
 	else if (x[0].innerHTML == "O" && x[1].innerHTML == "O" && x[2].innerHTML == "O"){
 		status.innerHTML = "Congratulations! O is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[3].innerHTML == "O" && x[4].innerHTML == "O" && x[5].innerHTML == "O"){
 		status.innerHTML = "Congratulations! O is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[6].innerHTML == "O" && x[7].innerHTML == "O" && x[8].innerHTML == "O"){
 		status.innerHTML = "Congratulations! O is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[0].innerHTML == "O" && x[3].innerHTML == "O" && x[6].innerHTML == "O"){
 		status.innerHTML = "Congratulations! O is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[1].innerHTML == "O" && x[4].innerHTML == "O" && x[7].innerHTML == "O"){
 		status.innerHTML = "Congratulations! O is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[2].innerHTML == "O" && x[5].innerHTML == "O" && x[8].innerHTML == "O"){
 		status.innerHTML = "Congratulations! O is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[0].innerHTML == "O" && x[4].innerHTML == "O" && x[8].innerHTML == "O"){
 		status.innerHTML = "Congratulations! O is the Winner"
+		board.style.pointerEvents = "none";
 	}
 	else if (x[2].innerHTML == "O" && x[4].innerHTML == "O" && x[6].innerHTML == "O"){
 		status.innerHTML = "Congratulations! O is the Winner"
+		board.style.pointerEvents = "none";
 	}
 }
