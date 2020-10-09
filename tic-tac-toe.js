@@ -14,6 +14,11 @@ window.onload = function() {
 			state = !state;
 		}
 
+		newbtn.onclick = function(){
+			state = newboard(x, stat);
+			board.style.pointerEvents = "auto";
+		}
+
 		x[i].onmouseover = function() {
 			whilehovering(x[i],state)
 		}
@@ -45,6 +50,14 @@ function addval(x, state){
 			x.classList.add("O");
 			x.innerHTML='O'
 		}
+	}
+}
+function newboard(x,status){
+	for (let i = 0; i< x.length; i++){
+		x[i].innerHTML = "";
+		x[i].classList.remove("X");
+		x[i].classList.remove("O");
+		status.innerHTML = "Move your mouse over a square and click to play an X and O";
 	}
 }
 
